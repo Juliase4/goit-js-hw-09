@@ -1,0 +1,21 @@
+body {
+  background-color: #d9d9d9;
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding-left: 0;
+}
+
+.gallery-item {
+  width: calc((100% - 48px) / 3);
+}
+
+.gallery-link:hover {
+  cursor: url(../img/hand-cursor.svg) 12 12, pointer;
+}
