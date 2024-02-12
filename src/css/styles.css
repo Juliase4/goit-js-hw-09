@@ -6,7 +6,7 @@
 */
 @import url('./reset.css');
 @import url('./gallery.css');
-@import url('./forrm.css');
+@import url('./form.css');
 
 :root {
   font-family: Inter, Helvetica, Arial, sans-serif;
@@ -22,4 +22,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+body {
+  padding: 30px;
 }
